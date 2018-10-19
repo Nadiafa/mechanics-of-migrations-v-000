@@ -23,5 +23,6 @@ sql = <<-SQL
   )
 SQL
 
+ActiveRecord::Base.connectionexecute(sql)
 
 require_relative "../artist.rb"
